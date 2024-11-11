@@ -1,0 +1,165 @@
+.achivmets{
+  margin: 10px 30px;
+}
+
+.achivement-conatiner{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 30px;
+  align-items: center;
+}
+
+.achivment-right h3{
+  font-size: 40px;
+}
+
+.achivment-right p{
+  margin: 40px 0 0px;
+  
+}
+.achivment-right .boxes-menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.box{
+  margin: 40px 0 0;
+  background: #000;
+  height: 180px;
+  width: 180px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 40px;
+}
+
+.box i{
+font-size: 2rem;
+background-color: orangered;
+padding: 15px;
+border-radius: 10px;
+
+}
+
+.box h4{
+    margin: 20px;
+}
+.box p{
+  margin: 20px;
+}
+
+.team{
+  background: #2E3267;
+}
+.team-menu{
+  margin: 20px;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.team-details{
+  background: #1f2641;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid #1f2641;
+  border-radius: 30px;
+  &:hover{
+    background: transparent;
+  border: 2px solid #1f1f1f;
+
+    
+  }
+}
+
+.team-details img{
+  margin: 10px 10px 0;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+
+
+.team-details h4{
+  font-size: 2rem;
+  margin: 0px 0 10px;
+}
+.team-details p{
+  margin: 25px 0 10px 0;
+}
+
+@media screen and (max-width:500px) {
+  
+.achivement-conatiner{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+  align-items:center;
+  text-align: center;
+}
+
+.achivment-right h3{
+  font-size: 30px;
+  align-items:center;
+  text-align: center;
+}
+
+.achivment-right p{
+  margin: 40px 0 0px;
+  
+}
+.achivment-right .boxes-menu{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+
+.team-menu{
+  margin: 20px;
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.team-details{
+  background: #1f2641;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.team-details img{
+  margin: 10px 10px 0;
+  display: inline;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+
+
+.team-details h4{
+  font-size: .9rem;
+  margin: 5px 0 0px;
+}
+.team-details p{
+  margin: 5px 0  10px;
+}
+
+  
+}
